@@ -1,27 +1,16 @@
 PODS:
-  - FBSnapshotTestCase (2.1.4):
-    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
-  - FBSnapshotTestCase/Core (2.1.4)
-  - FBSnapshotTestCase/SwiftSupport (2.1.4):
-    - FBSnapshotTestCase/Core
-  - GLToast-Swift (1.0.1)
+  - GLToast-Swift (1.0.2)
 
 DEPENDENCIES:
-  - FBSnapshotTestCase (~> 2.1.4)
   - GLToast-Swift (from `../`)
-
-SPEC REPOS:
-  trunk:
-    - FBSnapshotTestCase
 
 EXTERNAL SOURCES:
   GLToast-Swift:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  GLToast-Swift: 1b35e69afffc575259becd3f1cf8f1bea235d60f
+  GLToast-Swift: 326f91bd371b9af4b0ea8265502de1359734bbc0
 
-PODFILE CHECKSUM: 827dfb608851fbc4ef5faf5bd6da89b0d17bbe53
+PODFILE CHECKSUM: 576dca78bc60cab2087c650fe50d0c6209e852f5
 
 COCOAPODS: 1.10.1
