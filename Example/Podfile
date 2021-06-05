@@ -4,10 +4,12 @@ platform :ios, '10.0'
 
 target 'GLToast-Swift_Example' do
 #  pod 'GLToast-Swift', :path => '../'
-  pod 'GLToast-Swift', :git => 'https://github.com/ZhuGuiLei/GLToast-Swift.git'
+#  pod 'GLToast-Swift', :git => 'https://github.com/ZhuGuiLei/GLToast-Swift.git'
   target 'GLToast-Swift_Tests' do
     inherit! :search_paths
 
     pod 'FBSnapshotTestCase' , '~> 2.1.4'
+    pod 'GLToast-Swift', :git => 'https://github.com/ZhuGuiLei/GLToast-Swift.git'
+    
   end
 end
