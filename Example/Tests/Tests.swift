@@ -1,5 +1,5 @@
 import XCTest
-import GLToast-Swift
+import GLToast_Swift
 
 class Tests: XCTestCase {
     

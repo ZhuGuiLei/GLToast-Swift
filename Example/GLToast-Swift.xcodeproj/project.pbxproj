@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		05AAFB6CA7624C0B98927E42 /* Pods_GLToast_Swift_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C31497B1844E8D50F9EAECF3 /* Pods_GLToast_Swift_Example.framework */; };
+		185BA99A266B586E00C9C3AE /* GLProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185BA999266B586E00C9C3AE /* GLProgressHUD.swift */; };
 		4226D91F8CDE583412CFA82B /* Pods_GLToast_Swift_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59FFBF49D3D320E0F278A30F /* Pods_GLToast_Swift_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
@@ -28,9 +29,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		185BA999266B586E00C9C3AE /* GLProgressHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GLProgressHUD.swift; sourceTree = "<group>"; };
 		327248C2BA80B5E20FBF66C2 /* Pods-GLToast-Swift_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GLToast-Swift_Tests.release.xcconfig"; path = "Target Support Files/Pods-GLToast-Swift_Tests/Pods-GLToast-Swift_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		45687849EE957B629524BE32 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		512BEE688B8F3AAA894D5EF3 /* GLToast-Swift.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = "GLToast-Swift.podspec"; path = "../GLToast-Swift.podspec"; sourceTree = "<group>"; };
+		45687849EE957B629524BE32 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		512BEE688B8F3AAA894D5EF3 /* GLToast-Swift.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "GLToast-Swift.podspec"; path = "../GLToast-Swift.podspec"; sourceTree = "<group>"; };
 		59FFBF49D3D320E0F278A30F /* Pods_GLToast_Swift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GLToast_Swift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* GLToast-Swift_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GLToast-Swift_Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,7 +47,7 @@
 		7830D550C1DFF3DF0D2E016F /* Pods-GLToast-Swift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GLToast-Swift_Example.debug.xcconfig"; path = "Target Support Files/Pods-GLToast-Swift_Example/Pods-GLToast-Swift_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C31497B1844E8D50F9EAECF3 /* Pods_GLToast_Swift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GLToast_Swift_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB95FAB26968C4EC41137AB0 /* Pods-GLToast-Swift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GLToast-Swift_Example.release.xcconfig"; path = "Target Support Files/Pods-GLToast-Swift_Example/Pods-GLToast-Swift_Example.release.xcconfig"; sourceTree = "<group>"; };
-		F1982B15A52E521C8742F305 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F1982B15A52E521C8742F305 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		FC7833A4F75F50486B9C394A /* Pods-GLToast-Swift_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GLToast-Swift_Tests.debug.xcconfig"; path = "Target Support Files/Pods-GLToast-Swift_Tests/Pods-GLToast-Swift_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -104,6 +106,7 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				185BA999266B586E00C9C3AE /* GLProgressHUD.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -156,7 +159,6 @@
 				FC7833A4F75F50486B9C394A /* Pods-GLToast-Swift_Tests.debug.xcconfig */,
 				327248C2BA80B5E20FBF66C2 /* Pods-GLToast-Swift_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -228,6 +230,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -351,6 +354,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				185BA99A266B586E00C9C3AE /* GLProgressHUD.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -498,6 +502,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "GLToast-Swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -513,6 +518,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "GLToast-Swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
