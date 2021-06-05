@@ -314,7 +314,7 @@ public extension UIView {
             activityView.layer.shadowOffset = style.shadowOffset
         }
         
-        let activityIndicatorView = UIActivityIndicatorView.init(activityIndicatorStyle: .whiteLarge)
+        let activityIndicatorView = UIActivityIndicatorView.init(style: .whiteLarge)
         activityIndicatorView.center = CGPoint(x: activityView.bounds.size.width / 2.0, y: activityView.bounds.size.height / 2.0)
         activityView.addSubview(activityIndicatorView)
         activityIndicatorView.color = style.activityIndicatorColor
@@ -341,7 +341,7 @@ public extension UIView {
             wrapperView.layer.shadowOffset = style.shadowOffset
         }
         
-        let activityIndicatorView = UIActivityIndicatorView.init(activityIndicatorStyle: .whiteLarge)
+        let activityIndicatorView = UIActivityIndicatorView.init(style: .whiteLarge)
         activityIndicatorView.frame = CGRect(x: 0, y: 0, width: 37, height: 37)
         activityIndicatorView.color = style.activityIndicatorColor
         activityIndicatorView.startAnimating()
@@ -454,7 +454,7 @@ public extension UIView {
             toast.alpha = 1.0
         }) { _ in
             let timer = Timer(timeInterval: duration, target: self, selector: #selector(UIView.toastTimerDidFinish(_:)), userInfo: toast, repeats: false)
-            RunLoop.main.add(timer, forMode: .commonModes)
+            RunLoop.main.add(timer, forMode: .common)
             objc_setAssociatedObject(toast, &ToastKeys.timer, timer, .OBJC_ASSOCIATION_RETAIN_NONATOMIC)
         }
     }

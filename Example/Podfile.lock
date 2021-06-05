@@ -8,7 +8,7 @@ PODS:
 
 DEPENDENCIES:
   - FBSnapshotTestCase (~> 2.1.4)
-  - GLToast-Swift (from `https://github.com/ZhuGuiLei/GLToast-Swift.git`)
+  - GLToast-Swift (from `../`)
 
 SPEC REPOS:
   trunk:
@@ -16,17 +16,12 @@ SPEC REPOS:
 
 EXTERNAL SOURCES:
   GLToast-Swift:
-    :git: https://github.com/ZhuGuiLei/GLToast-Swift.git
-
-CHECKOUT OPTIONS:
-  GLToast-Swift:
-    :commit: 7fec712a2540b4dd2e527cd3be26c394ba4fe0bb
-    :git: https://github.com/ZhuGuiLei/GLToast-Swift.git
+    :path: "../"
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
   GLToast-Swift: 1b35e69afffc575259becd3f1cf8f1bea235d60f
 
-PODFILE CHECKSUM: 290ea90ea6c607191a662474f195dea4d0fece32
+PODFILE CHECKSUM: 827dfb608851fbc4ef5faf5bd6da89b0d17bbe53
 
 COCOAPODS: 1.10.1
