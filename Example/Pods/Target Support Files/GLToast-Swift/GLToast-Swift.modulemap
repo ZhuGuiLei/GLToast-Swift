@@ -1,0 +1,6 @@
+framework module GLToast_Swift {
+  umbrella header "GLToast-Swift-umbrella.h"
+
+  export *
+  module * { export * }
+}
