@@ -3,7 +3,7 @@
 //  Toast-Swift
 //
 //  Created by apple on 2021/6/5.
-//
+//  1.2.0
 
 import UIKit
 import ObjectiveC
