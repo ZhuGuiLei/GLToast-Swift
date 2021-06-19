@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GLToast-Swift'
-  s.version          = '1.2.1'
+  s.version          = '1.2.3'
   s.summary          = 'GLToast-Swift：信息提示弹窗'
 
 # This description is used to generate tags and improve search results.
