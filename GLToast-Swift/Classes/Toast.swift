@@ -3,7 +3,7 @@
 //  Toast-Swift
 //
 //  Created by apple on 2021/6/5.
-//  1.2.3
+//  1.2.4
 
 import UIKit
 import ObjectiveC
@@ -377,7 +377,7 @@ public extension UIView {
         
         if let titleLabel = titleLabel {
             titleRect.origin.x = style.horizontalPadding
-            titleRect.origin.y = imageRect.maxY + style.verticalPadding
+            titleRect.origin.y = imageRect.maxY + style.verticalSpace
             titleRect.size.width = titleLabel.bounds.size.width
             titleRect.size.height = titleLabel.bounds.size.height
         }
@@ -387,7 +387,7 @@ public extension UIView {
         if let messageLabel = messageLabel {
             messageRect.origin.x = style.horizontalPadding
             let longerHeight = max(titleRect.maxY, imageRect.maxY)
-            messageRect.origin.y = longerHeight + style.verticalPadding
+            messageRect.origin.y = longerHeight + style.verticalSpace
             messageRect.size.width = messageLabel.bounds.size.width
             messageRect.size.height = messageLabel.bounds.size.height
         }
@@ -574,7 +574,7 @@ public extension UIView {
         
         if let titleLabel = titleLabel {
             titleRect.origin.x = style.horizontalPadding
-            titleRect.origin.y = imageRect.maxY + style.verticalPadding
+            titleRect.origin.y = max(imageRect.maxY + style.verticalSpace, style.verticalPadding)
             titleRect.size.width = titleLabel.bounds.size.width
             titleRect.size.height = titleLabel.bounds.size.height
         }
@@ -584,7 +584,7 @@ public extension UIView {
         if let messageLabel = messageLabel {
             messageRect.origin.x = style.horizontalPadding
             let longerHeight = max(titleRect.maxY, imageRect.maxY)
-            messageRect.origin.y = longerHeight + style.verticalPadding
+            messageRect.origin.y = max(longerHeight + style.verticalSpace, style.verticalPadding)
             messageRect.size.width = messageLabel.bounds.size.width
             messageRect.size.height = messageLabel.bounds.size.height
         }
@@ -668,21 +668,17 @@ public struct GL_ToastStyle {
         }
     }
     
-    /**
-     The spacing from the horizontal edge of the toast view to the content. When an image
-     is present, this is also used as the padding between the image and the text.
-     Default is 10.0.
-     
-    */
-    public var horizontalPadding: CGFloat = 10.0
+    /// 水平边距 Default is 10.0.
+    public var horizontalPadding: CGFloat = 26.0
     
-    /**
-     The spacing from the vertical edge of the toast view to the content. When a title
-     is present, this is also used as the padding between the title and the message.
-     Default is 10.0. On iOS11+, this value is added added to the `safeAreaInset.top`
-     and `safeAreaInsets.bottom`.
-    */
-    public var verticalPadding: CGFloat = 10.0
+    /// 垂直边距 Default is 10.0.
+    public var verticalPadding: CGFloat = 16.0
+    
+    /// 水平间距 Default is 10.0.
+    public var horizontalSpace: CGFloat = 10.0
+    
+    /// 垂直间距 Default is 10.0.
+    public var verticalSpace: CGFloat = 10.0
     
     /**
      圆角. Default is 4.0.
