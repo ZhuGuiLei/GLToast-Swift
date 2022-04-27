@@ -8,8 +8,7 @@ target 'GLToast-Swift_Example' do
   target 'GLToast-Swift_Tests' do
     inherit! :search_paths
 
-#    pod 'FBSnapshotTestCase' , '~> 2.1.4'
-    pod 'GLToast-Swift', '1.2.5'
+    pod 'GLToast-Swift', '1.2.6'
     
   end
 end
