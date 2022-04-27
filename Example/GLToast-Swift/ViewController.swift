@@ -42,10 +42,11 @@ class ViewController: UIViewController {
         case 9:
             GLProgressHUD.showIndicator("提示信息6失败")
             DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
-                GLProgressHUD.dismissOne()
+                GLProgressHUD.showIndicator("提示信息6失败", tit: "标题")
+                DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+                    GLProgressHUD.dismissOne()
+                }
             }
-        case 10:
-            GLProgressHUD.showIndicator("提示信息6失败", tit: "标题")
         default:
             GLProgressHUD.dismissAll()
             break

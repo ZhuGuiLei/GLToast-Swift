@@ -7,32 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A30CDC03C7D63C5C9CCDD913071F749 /* Pods-GLToast-Swift_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 30385D1D05CF2F29E4FF6A0081D319EC /* Pods-GLToast-Swift_Example-dummy.m */; };
-		0B38F9D3FC460CA5F19EA30215E32E55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		112BBECD2A5EB47AACB798D3A2A38636 /* GLToast-Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A477AEFAB9B1E010C71D39D43502052C /* GLToast-Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1E300EACB5418CF4F03352F2291D7E8A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		3B23C1F7847A833A2C0B64493563B05C /* GLToast-Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EB3CD83216CA31B5ADC356D269DA2DDB /* GLToast-Swift-dummy.m */; };
-		8CF4A601EF22C11231329A803F458418 /* Pods-GLToast-Swift_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8582EFF98B8084ADAC0981D512C4F87E /* Pods-GLToast-Swift_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A7C77A43479EDF33A56D1054CB49E438 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A61671E105072191A4E8548D9A677A /* Toast.swift */; };
-		CCF20C40B36A76F2C0BC234B5E78C05D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		D7D65C83BC98AA96FD355C1F0A64A871 /* Pods-GLToast-Swift_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0260113B0957167167538E5EDBE63C16 /* Pods-GLToast-Swift_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E0C8934456E28A1C314E0A4219327BBA /* Pods-GLToast-Swift_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E91D0DE644AF0FB8E6EA0169B908E8B1 /* Pods-GLToast-Swift_Tests-dummy.m */; };
+		1E9FD0D66D1117CC1227C705BF76AD4C /* Pods-GLToast-Swift_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0260113B0957167167538E5EDBE63C16 /* Pods-GLToast-Swift_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		459A44DBB244AF78B2F997AC3F20F34D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		64030DCD078CE1630BABAFBF1A29D397 /* Pods-GLToast-Swift_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E91D0DE644AF0FB8E6EA0169B908E8B1 /* Pods-GLToast-Swift_Tests-dummy.m */; };
+		B27B1C6A2695982FAD3F140ADF241F55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B90AB13B55771436292468BF4DBBED8D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C9AC70D263CEB36B0EB6AA3DEE510765 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A61671E105072191A4E8548D9A677A /* Toast.swift */; };
+		CA7BF1F83D52B255937AB3C879EA8A79 /* Pods-GLToast-Swift_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 30385D1D05CF2F29E4FF6A0081D319EC /* Pods-GLToast-Swift_Example-dummy.m */; };
+		D607C1DA997022D0A1F82F4F7315A371 /* Pods-GLToast-Swift_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8582EFF98B8084ADAC0981D512C4F87E /* Pods-GLToast-Swift_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E89B054CA30AAF0DD33D41BEEE1E16AC /* GLToast-Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EB3CD83216CA31B5ADC356D269DA2DDB /* GLToast-Swift-dummy.m */; };
+		FA5ED6322A64059BCBA651E13FCC2BAD /* GLToast-Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A477AEFAB9B1E010C71D39D43502052C /* GLToast-Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		8DDF33FFBDD556344BA20F56C0025E88 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 97D71B878ECC8EA295D5BB4152AC68AE;
-			remoteInfo = "Pods-GLToast-Swift_Example";
-		};
-		AEB49C90F0F9D9E6E69502C33164303E /* PBXContainerItemProxy */ = {
+		0CA9370ECDD663ABEAE85C4FD6287B6E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = C142137B892410CD1A632A0B65832804;
 			remoteInfo = "GLToast-Swift";
+		};
+		1523E1E7495C9363AFED81EE0CC4EB49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97D71B878ECC8EA295D5BB4152AC68AE;
+			remoteInfo = "Pods-GLToast-Swift_Example";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -40,15 +40,15 @@
 		024476B0A6B98EC08CE0C3D17FA76AB4 /* GLToast-Swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GLToast-Swift-Info.plist"; sourceTree = "<group>"; };
 		0260113B0957167167538E5EDBE63C16 /* Pods-GLToast-Swift_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GLToast-Swift_Example-umbrella.h"; sourceTree = "<group>"; };
 		0779DAB797955A18B4C01D343A5BC75A /* GLToast-Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "GLToast-Swift.debug.xcconfig"; sourceTree = "<group>"; };
-		0BBAB273C0264369E576952FEB72C043 /* Pods_GLToast_Swift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GLToast_Swift_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BBAB273C0264369E576952FEB72C043 /* Pods-GLToast-Swift_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-GLToast-Swift_Example"; path = Pods_GLToast_Swift_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		28D134783805F77DEF089CD782DD2F01 /* Pods-GLToast-Swift_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GLToast-Swift_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		30385D1D05CF2F29E4FF6A0081D319EC /* Pods-GLToast-Swift_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GLToast-Swift_Example-dummy.m"; sourceTree = "<group>"; };
-		334B71A7EEE36CFAB005489305D7D17A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		3729227630A2F0AF4997836A93129EFA /* GLToast-Swift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = "GLToast-Swift.podspec"; sourceTree = "<group>"; tabWidth = 2; };
-		410C2BC4DACA8517E494E969CD9C0955 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		334B71A7EEE36CFAB005489305D7D17A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		3729227630A2F0AF4997836A93129EFA /* GLToast-Swift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "GLToast-Swift.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		410C2BC4DACA8517E494E969CD9C0955 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		4D57CD772918D1CF225D876FE3F73159 /* GLToast-Swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GLToast-Swift-prefix.pch"; sourceTree = "<group>"; };
 		521DFCDC448EC3F0895808CDDDC52521 /* Pods-GLToast-Swift_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GLToast-Swift_Tests-Info.plist"; sourceTree = "<group>"; };
-		5755EFEEB25F65C7E32B2B0CF8CB60A7 /* GLToast_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GLToast_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5755EFEEB25F65C7E32B2B0CF8CB60A7 /* GLToast-Swift */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "GLToast-Swift"; path = GLToast_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AB718F329C7F48D7D01A06335FFD090 /* Pods-GLToast-Swift_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GLToast-Swift_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		5B1C613F202A694D8C360266E8BECA8C /* Pods-GLToast-Swift_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GLToast-Swift_Tests.modulemap"; sourceTree = "<group>"; };
 		61A61671E105072191A4E8548D9A677A /* Toast.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Toast.swift; path = "GLToast-Swift/Classes/Toast.swift"; sourceTree = "<group>"; };
@@ -58,14 +58,14 @@
 		7DBD3555BD1A398A731C7E42EBB7B972 /* Pods-GLToast-Swift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GLToast-Swift_Example.release.xcconfig"; sourceTree = "<group>"; };
 		8582EFF98B8084ADAC0981D512C4F87E /* Pods-GLToast-Swift_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GLToast-Swift_Tests-umbrella.h"; sourceTree = "<group>"; };
 		949D817CF9F801CF40BCB6AE1E8705EF /* Pods-GLToast-Swift_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GLToast-Swift_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A477AEFAB9B1E010C71D39D43502052C /* GLToast-Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GLToast-Swift-umbrella.h"; sourceTree = "<group>"; };
 		BB8D839DF22DB2280F98CFB329814B3A /* Pods-GLToast-Swift_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GLToast-Swift_Example-Info.plist"; sourceTree = "<group>"; };
 		BD90E681656A508ECEA5628225EA87D7 /* GLToast-Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "GLToast-Swift.modulemap"; sourceTree = "<group>"; };
 		BDA6B37AB07F300C4FCA731A333A811C /* Pods-GLToast-Swift_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GLToast-Swift_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		BE75FA86AE9AC0BFF25C4249E31A53E1 /* Pods-GLToast-Swift_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GLToast-Swift_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		CCEF67D2887A726D5C5AFA60F927156B /* Pods-GLToast-Swift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GLToast-Swift_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		CE4E3B890FCCE742D16A7CA82218F252 /* Pods_GLToast_Swift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GLToast_Swift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE4E3B890FCCE742D16A7CA82218F252 /* Pods-GLToast-Swift_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-GLToast-Swift_Tests"; path = Pods_GLToast_Swift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D501BD52B42D94DD03E5D0B218664D89 /* GLToast-Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "GLToast-Swift.release.xcconfig"; sourceTree = "<group>"; };
 		DF73A99C218AC3F255FA5CCBC65B754E /* Pods-GLToast-Swift_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GLToast-Swift_Example.modulemap"; sourceTree = "<group>"; };
 		E91D0DE644AF0FB8E6EA0169B908E8B1 /* Pods-GLToast-Swift_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GLToast-Swift_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -73,27 +73,27 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		35C1106C9C7C9095F7EC22FE4936080C /* Frameworks */ = {
+		9835B0124EDA63930623AEC7F9921000 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E300EACB5418CF4F03352F2291D7E8A /* Foundation.framework in Frameworks */,
+				B90AB13B55771436292468BF4DBBED8D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D7A6B8CC434A159ABF349C1F30AFCF70 /* Frameworks */ = {
+		B9BA38728F09541016B2C7722A34AF2D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CCF20C40B36A76F2C0BC234B5E78C05D /* Foundation.framework in Frameworks */,
+				459A44DBB244AF78B2F997AC3F20F34D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FCFBBBDC50DDD7FC7BD61E3DF561100F /* Frameworks */ = {
+		DA8568FB34BC5BF47B3D362005456E12 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B38F9D3FC460CA5F19EA30215E32E55 /* Foundation.framework in Frameworks */,
+				B27B1C6A2695982FAD3F140ADF241F55 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -127,6 +127,16 @@
 			path = "Target Support Files/Pods-GLToast-Swift_Example";
 			sourceTree = "<group>";
 		};
+		0B32558D5C7B7C7FE9877F8B994898C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5755EFEEB25F65C7E32B2B0CF8CB60A7 /* GLToast-Swift */,
+				0BBAB273C0264369E576952FEB72C043 /* Pods-GLToast-Swift_Example */,
+				CE4E3B890FCCE742D16A7CA82218F252 /* Pods-GLToast-Swift_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		3B22474086448BB8284F427D4F21513E /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -140,16 +150,6 @@
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/GLToast-Swift";
-			sourceTree = "<group>";
-		};
-		42DEBE561DE11407C4F848EFA3CB8204 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				5755EFEEB25F65C7E32B2B0CF8CB60A7 /* GLToast_Swift.framework */,
-				0BBAB273C0264369E576952FEB72C043 /* Pods_GLToast_Swift_Example.framework */,
-				CE4E3B890FCCE742D16A7CA82218F252 /* Pods_GLToast_Swift_Tests.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -186,7 +186,7 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				E8036D72F9098BB7505BE4E49CCA915F /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				42DEBE561DE11407C4F848EFA3CB8204 /* Products */,
+				0B32558D5C7B7C7FE9877F8B994898C1 /* Products */,
 				7B687406FFB9ED157BA6873D49997D30 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -226,27 +226,27 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		26FF618E2B3AB89E976B396AED0B603A /* Headers */ = {
+		01328A96E811FF24F8E7C8F6887928F3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				112BBECD2A5EB47AACB798D3A2A38636 /* GLToast-Swift-umbrella.h in Headers */,
+				D607C1DA997022D0A1F82F4F7315A371 /* Pods-GLToast-Swift_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5D6A2359989359DF5B76FEC43E26CEBD /* Headers */ = {
+		345D0E5553377781AADD023CF6601772 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7D65C83BC98AA96FD355C1F0A64A871 /* Pods-GLToast-Swift_Example-umbrella.h in Headers */,
+				FA5ED6322A64059BCBA651E13FCC2BAD /* GLToast-Swift-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E97BF0D058D1E17A043CDDFE65776580 /* Headers */ = {
+		9ABF74F8DC5A44CB6F2788810F6774EF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CF4A601EF22C11231329A803F458418 /* Pods-GLToast-Swift_Tests-umbrella.h in Headers */,
+				1E9FD0D66D1117CC1227C705BF76AD4C /* Pods-GLToast-Swift_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,58 +255,58 @@
 /* Begin PBXNativeTarget section */
 		97D71B878ECC8EA295D5BB4152AC68AE /* Pods-GLToast-Swift_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 397109DD34FFB085B7D3079A85079FEE /* Build configuration list for PBXNativeTarget "Pods-GLToast-Swift_Example" */;
+			buildConfigurationList = 2409A32C6112EC4FE9954D5303178820 /* Build configuration list for PBXNativeTarget "Pods-GLToast-Swift_Example" */;
 			buildPhases = (
-				5D6A2359989359DF5B76FEC43E26CEBD /* Headers */,
-				4C50DF76C8796067D2E0D774B499D135 /* Sources */,
-				D7A6B8CC434A159ABF349C1F30AFCF70 /* Frameworks */,
-				9F48957E770DF45CE33A5458197E97BB /* Resources */,
+				9ABF74F8DC5A44CB6F2788810F6774EF /* Headers */,
+				1F3284B5B8C174885124CF47A3C27B44 /* Sources */,
+				DA8568FB34BC5BF47B3D362005456E12 /* Frameworks */,
+				C10529A8C9AD7623A08C1AA52C5D4B39 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				14877C71FB16024794FE847ACEB497C1 /* PBXTargetDependency */,
+				7FB97BBFB94146A6229537C5F53E8130 /* PBXTargetDependency */,
 			);
 			name = "Pods-GLToast-Swift_Example";
-			productName = "Pods-GLToast-Swift_Example";
-			productReference = 0BBAB273C0264369E576952FEB72C043 /* Pods_GLToast_Swift_Example.framework */;
+			productName = Pods_GLToast_Swift_Example;
+			productReference = 0BBAB273C0264369E576952FEB72C043 /* Pods-GLToast-Swift_Example */;
 			productType = "com.apple.product-type.framework";
 		};
 		C12B398B228ED53E3A2B62BB09D21081 /* Pods-GLToast-Swift_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 57EED8AF88935BCFB264793E33390E35 /* Build configuration list for PBXNativeTarget "Pods-GLToast-Swift_Tests" */;
+			buildConfigurationList = 2570037AF1C133EDAA81B3EE5DBE83C4 /* Build configuration list for PBXNativeTarget "Pods-GLToast-Swift_Tests" */;
 			buildPhases = (
-				E97BF0D058D1E17A043CDDFE65776580 /* Headers */,
-				C24D3E309B3F239578FCC35034EFFCAE /* Sources */,
-				35C1106C9C7C9095F7EC22FE4936080C /* Frameworks */,
-				4EA44680063AFA6F87B74F69872657FA /* Resources */,
+				01328A96E811FF24F8E7C8F6887928F3 /* Headers */,
+				A8EE8E8EA1C0D8BA0B197244224BC203 /* Sources */,
+				B9BA38728F09541016B2C7722A34AF2D /* Frameworks */,
+				FC902F19D2F677FF730BBF237440DEEE /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				63435A1E48383B459B6F1400FA1DD176 /* PBXTargetDependency */,
+				A6B6808C832F7DA3651B53F9ADABDE40 /* PBXTargetDependency */,
 			);
 			name = "Pods-GLToast-Swift_Tests";
-			productName = "Pods-GLToast-Swift_Tests";
-			productReference = CE4E3B890FCCE742D16A7CA82218F252 /* Pods_GLToast_Swift_Tests.framework */;
+			productName = Pods_GLToast_Swift_Tests;
+			productReference = CE4E3B890FCCE742D16A7CA82218F252 /* Pods-GLToast-Swift_Tests */;
 			productType = "com.apple.product-type.framework";
 		};
 		C142137B892410CD1A632A0B65832804 /* GLToast-Swift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7C9986A2FA76755BBF5C82C8A9FA4BB2 /* Build configuration list for PBXNativeTarget "GLToast-Swift" */;
+			buildConfigurationList = 05CFF9C701E44655EC48EBD7BF2C5C32 /* Build configuration list for PBXNativeTarget "GLToast-Swift" */;
 			buildPhases = (
-				26FF618E2B3AB89E976B396AED0B603A /* Headers */,
-				AC322EA712C29C6A3FFB43A7E5AA4251 /* Sources */,
-				FCFBBBDC50DDD7FC7BD61E3DF561100F /* Frameworks */,
-				C5EF2F6C15E4B0D2B7ED5E3B40F10114 /* Resources */,
+				345D0E5553377781AADD023CF6601772 /* Headers */,
+				54F4E39A92D3C2DF34037E47A589EA4F /* Sources */,
+				9835B0124EDA63930623AEC7F9921000 /* Frameworks */,
+				062697BCEEA45074448687A8ED5C515C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "GLToast-Swift";
-			productName = "GLToast-Swift";
-			productReference = 5755EFEEB25F65C7E32B2B0CF8CB60A7 /* GLToast_Swift.framework */;
+			productName = GLToast_Swift;
+			productReference = 5755EFEEB25F65C7E32B2B0CF8CB60A7 /* GLToast-Swift */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -315,19 +315,19 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 42DEBE561DE11407C4F848EFA3CB8204 /* Products */;
+			productRefGroup = 0B32558D5C7B7C7FE9877F8B994898C1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -339,21 +339,21 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4EA44680063AFA6F87B74F69872657FA /* Resources */ = {
+		062697BCEEA45074448687A8ED5C515C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9F48957E770DF45CE33A5458197E97BB /* Resources */ = {
+		C10529A8C9AD7623A08C1AA52C5D4B39 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C5EF2F6C15E4B0D2B7ED5E3B40F10114 /* Resources */ = {
+		FC902F19D2F677FF730BBF237440DEEE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -363,248 +363,54 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4C50DF76C8796067D2E0D774B499D135 /* Sources */ = {
+		1F3284B5B8C174885124CF47A3C27B44 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A30CDC03C7D63C5C9CCDD913071F749 /* Pods-GLToast-Swift_Example-dummy.m in Sources */,
+				CA7BF1F83D52B255937AB3C879EA8A79 /* Pods-GLToast-Swift_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AC322EA712C29C6A3FFB43A7E5AA4251 /* Sources */ = {
+		54F4E39A92D3C2DF34037E47A589EA4F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B23C1F7847A833A2C0B64493563B05C /* GLToast-Swift-dummy.m in Sources */,
-				A7C77A43479EDF33A56D1054CB49E438 /* Toast.swift in Sources */,
+				E89B054CA30AAF0DD33D41BEEE1E16AC /* GLToast-Swift-dummy.m in Sources */,
+				C9AC70D263CEB36B0EB6AA3DEE510765 /* Toast.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C24D3E309B3F239578FCC35034EFFCAE /* Sources */ = {
+		A8EE8E8EA1C0D8BA0B197244224BC203 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0C8934456E28A1C314E0A4219327BBA /* Pods-GLToast-Swift_Tests-dummy.m in Sources */,
+				64030DCD078CE1630BABAFBF1A29D397 /* Pods-GLToast-Swift_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		14877C71FB16024794FE847ACEB497C1 /* PBXTargetDependency */ = {
+		7FB97BBFB94146A6229537C5F53E8130 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "GLToast-Swift";
 			target = C142137B892410CD1A632A0B65832804 /* GLToast-Swift */;
-			targetProxy = AEB49C90F0F9D9E6E69502C33164303E /* PBXContainerItemProxy */;
+			targetProxy = 0CA9370ECDD663ABEAE85C4FD6287B6E /* PBXContainerItemProxy */;
 		};
-		63435A1E48383B459B6F1400FA1DD176 /* PBXTargetDependency */ = {
+		A6B6808C832F7DA3651B53F9ADABDE40 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-GLToast-Swift_Example";
 			target = 97D71B878ECC8EA295D5BB4152AC68AE /* Pods-GLToast-Swift_Example */;
-			targetProxy = 8DDF33FFBDD556344BA20F56C0025E88 /* PBXContainerItemProxy */;
+			targetProxy = 1523E1E7495C9363AFED81EE0CC4EB49 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0CC86358D6125F51E4571268367DC41B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7DBD3555BD1A398A731C7E42EBB7B972 /* Pods-GLToast-Swift_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-GLToast-Swift_Example/Pods-GLToast-Swift_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-GLToast-Swift_Example/Pods-GLToast-Swift_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		0D7617B12AD30B2D455AE09097671920 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 949D817CF9F801CF40BCB6AE1E8705EF /* Pods-GLToast-Swift_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-GLToast-Swift_Tests/Pods-GLToast-Swift_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-GLToast-Swift_Tests/Pods-GLToast-Swift_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		479C34BBDBF4FB177C885C2F1E04F04E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D501BD52B42D94DD03E5D0B218664D89 /* GLToast-Swift.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/GLToast-Swift/GLToast-Swift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GLToast-Swift/GLToast-Swift-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GLToast-Swift/GLToast-Swift.modulemap";
-				PRODUCT_MODULE_NAME = GLToast_Swift;
-				PRODUCT_NAME = GLToast_Swift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 5.0;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		BACEC0A89B1588D62C153425B043FE9E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CCEF67D2887A726D5C5AFA60F927156B /* Pods-GLToast-Swift_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-GLToast-Swift_Example/Pods-GLToast-Swift_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-GLToast-Swift_Example/Pods-GLToast-Swift_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		D0935CC548CAAC373036E2C746BB0EAC /* Release */ = {
+		1136C49818F26054EEB9A958508BD1E2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BE75FA86AE9AC0BFF25C4249E31A53E1 /* Pods-GLToast-Swift_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -633,7 +439,7 @@
 			};
 			name = Release;
 		};
-		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -699,11 +505,138 @@
 			};
 			name = Debug;
 		};
-		F06A91FCABD8F79A68534CB7BD183624 /* Debug */ = {
+		2BDD97676343390034A54C51A439800F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DBD3555BD1A398A731C7E42EBB7B972 /* Pods-GLToast-Swift_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GLToast-Swift_Example/Pods-GLToast-Swift_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GLToast-Swift_Example/Pods-GLToast-Swift_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		62C36F1774682EA2C721F8B2DB1D1221 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D501BD52B42D94DD03E5D0B218664D89 /* GLToast-Swift.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GLToast-Swift/GLToast-Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GLToast-Swift/GLToast-Swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GLToast-Swift/GLToast-Swift.modulemap";
+				PRODUCT_MODULE_NAME = GLToast_Swift;
+				PRODUCT_NAME = GLToast_Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		712F3FB6102AEEDF91165F86AC48CE45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 949D817CF9F801CF40BCB6AE1E8705EF /* Pods-GLToast-Swift_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GLToast-Swift_Tests/Pods-GLToast-Swift_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GLToast-Swift_Tests/Pods-GLToast-Swift_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		88640F7DC768A5F20F7FB8A7055869AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCEF67D2887A726D5C5AFA60F927156B /* Pods-GLToast-Swift_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GLToast-Swift_Example/Pods-GLToast-Swift_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GLToast-Swift_Example/Pods-GLToast-Swift_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A1D9412D4AEF4D2445E206B3F290BA94 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0779DAB797955A18B4C01D343A5BC75A /* GLToast-Swift.debug.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -730,14 +663,94 @@
 			};
 			name = Debug;
 		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		397109DD34FFB085B7D3079A85079FEE /* Build configuration list for PBXNativeTarget "Pods-GLToast-Swift_Example" */ = {
+		05CFF9C701E44655EC48EBD7BF2C5C32 /* Build configuration list for PBXNativeTarget "GLToast-Swift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BACEC0A89B1588D62C153425B043FE9E /* Debug */,
-				0CC86358D6125F51E4571268367DC41B /* Release */,
+				A1D9412D4AEF4D2445E206B3F290BA94 /* Debug */,
+				62C36F1774682EA2C721F8B2DB1D1221 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2409A32C6112EC4FE9954D5303178820 /* Build configuration list for PBXNativeTarget "Pods-GLToast-Swift_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88640F7DC768A5F20F7FB8A7055869AA /* Debug */,
+				2BDD97676343390034A54C51A439800F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2570037AF1C133EDAA81B3EE5DBE83C4 /* Build configuration list for PBXNativeTarget "Pods-GLToast-Swift_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				712F3FB6102AEEDF91165F86AC48CE45 /* Debug */,
+				1136C49818F26054EEB9A958508BD1E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -745,26 +758,8 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
-				7EE7A78859F657F6BEFC651185B43192 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		57EED8AF88935BCFB264793E33390E35 /* Build configuration list for PBXNativeTarget "Pods-GLToast-Swift_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0D7617B12AD30B2D455AE09097671920 /* Debug */,
-				D0935CC548CAAC373036E2C746BB0EAC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7C9986A2FA76755BBF5C82C8A9FA4BB2 /* Build configuration list for PBXNativeTarget "GLToast-Swift" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F06A91FCABD8F79A68534CB7BD183624 /* Debug */,
-				479C34BBDBF4FB177C885C2F1E04F04E /* Release */,
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

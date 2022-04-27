@@ -19,6 +19,9 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'GLToast-Swift'
 ```
+```ruby
+pod 'GLToast-Swift', :git => 'https://github.com/ZhuGuiLei/GLToast-Swift.git'
+```
 
 ## Author
 
