@@ -21,7 +21,7 @@ class ViewController: UIViewController {
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         view.tag = view.tag + 1
-        let tag = view.tag % 12
+        let tag = view.tag % 11
         switch tag {
         case 1:
             GLProgressHUD.show("提示信息1")
@@ -41,8 +41,9 @@ class ViewController: UIViewController {
             GLProgressHUD.showError("提示信息5失败", tit: "标题")
         case 9:
             GLProgressHUD.showIndicator("提示信息6失败")
-        case 11:
-            GLProgressHUD.dismissOne()
+            DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+                GLProgressHUD.dismissOne()
+            }
         case 10:
             GLProgressHUD.showIndicator("提示信息6失败", tit: "标题")
         default:

@@ -90,9 +90,6 @@ class GLProgressHUD: NSObject {
             showView?.addSubview(bg)
         }
         showView?.gl_makeToastActivity(msg, title: tit)
-        DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
-            showView?.viewWithTag(921016)?.removeFromSuperview()
-        }
     }
     
     // MARK: - dismiss
