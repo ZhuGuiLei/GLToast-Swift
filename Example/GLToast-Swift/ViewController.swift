@@ -41,9 +41,9 @@ class ViewController: UIViewController {
             GLProgressHUD.showError("提示信息5失败", tit: "标题")
         case 9:
             GLProgressHUD.showIndicator("提示信息6失败")
-        case 10:
-            GLProgressHUD.dismissOne()
         case 11:
+            GLProgressHUD.dismissOne()
+        case 10:
             GLProgressHUD.showIndicator("提示信息6失败", tit: "标题")
         default:
             GLProgressHUD.dismissAll()

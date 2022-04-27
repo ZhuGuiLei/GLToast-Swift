@@ -63,7 +63,7 @@ class GLProgressHUD: NSObject {
     /// 显示成功图片和文字信息
     /// - Parameter msg: 文字信息
     class func showSuccess(_ msg: String?, tit: String? = nil) {
-        show(msg, tit: tit, img: UIImage.init(named: "msg_seccess"))
+        show(msg, tit: tit, img: UIImage.init(named: "msg_success"))
     }
     
     /// 显示错误图片和文字信息
@@ -83,18 +83,29 @@ class GLProgressHUD: NSObject {
     /// 菊花
     class func showIndicator(_ msg: String? = nil, tit: String? = nil, toView view: UIView? = nil) {
         let showView = view ?? UIApplication.shared.keyWindow
+        if showView?.viewWithTag(921016) == nil {
+            let bg = UIView.init(frame: showView?.bounds ?? .zero)
+            bg.backgroundColor = .clear
+            bg.tag = 921016
+            showView?.addSubview(bg)
+        }
         showView?.gl_makeToastActivity(msg, title: tit)
+        DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+            showView?.viewWithTag(921016)?.removeFromSuperview()
+        }
     }
     
     // MARK: - dismiss
     class func dismissAll(_ view: UIView? = nil) {
         let showView = view ?? UIApplication.shared.keyWindow
+        showView?.viewWithTag(921016)?.removeFromSuperview()
         showView?.gl_hideAllToasts()
         showView?.gl_hideToastActivity()
     }
     
     class func dismissOne(_ view: UIView? = nil) {
         let showView = view ?? UIApplication.shared.keyWindow
+        showView?.viewWithTag(921016)?.removeFromSuperview()
         showView?.gl_hideToast()
         showView?.gl_hideToastActivity()
     }

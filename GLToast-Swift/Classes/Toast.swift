@@ -211,7 +211,11 @@ public extension UIView {
     ///   - position: 位置
     func gl_makeToastActivity(_ message: String?, title: String?, position: ToastPosition = GL_ToastManager.shared.position) {
         // sanity
-        guard objc_getAssociatedObject(self, &ToastKeys.activityView) as? UIView == nil else { return }
+        if let toast = objc_getAssociatedObject(self, &ToastKeys.activityView) as? UIView {
+            toast.alpha = 0.0
+            toast.removeFromSuperview()
+            objc_setAssociatedObject(self, &ToastKeys.activityView, nil, .OBJC_ASSOCIATION_RETAIN_NONATOMIC)
+        }
         
         let toast = createToastActivityView(message, title: title)
         let point = position.centerPoint(forToast: toast, inSuperview: self)
@@ -223,7 +227,11 @@ public extension UIView {
     ///   - position: 位置
     func gl_makeToastActivity(_ position: ToastPosition) {
         // sanity
-        guard objc_getAssociatedObject(self, &ToastKeys.activityView) as? UIView == nil else { return }
+        if let toast = objc_getAssociatedObject(self, &ToastKeys.activityView) as? UIView {
+            toast.alpha = 0.0
+            toast.removeFromSuperview()
+            objc_setAssociatedObject(self, &ToastKeys.activityView, nil, .OBJC_ASSOCIATION_RETAIN_NONATOMIC)
+        }
         
         let toast = createToastActivityView()
         let point = position.centerPoint(forToast: toast, inSuperview: self)
@@ -237,7 +245,11 @@ public extension UIView {
     ///   - point: 位置
     func gl_makeToastActivity(_ message: String?, title: String?, point: CGPoint) {
         // sanity
-        guard objc_getAssociatedObject(self, &ToastKeys.activityView) as? UIView == nil else { return }
+        if let toast = objc_getAssociatedObject(self, &ToastKeys.activityView) as? UIView {
+            toast.alpha = 0.0
+            toast.removeFromSuperview()
+            objc_setAssociatedObject(self, &ToastKeys.activityView, nil, .OBJC_ASSOCIATION_RETAIN_NONATOMIC)
+        }
         
         let toast = createToastActivityView(message, title: title)
         makeToastActivity(toast, point: point)
@@ -248,7 +260,11 @@ public extension UIView {
     ///   - point: 位置
     func gl_makeToastActivity(_ point: CGPoint) {
         // sanity
-        guard objc_getAssociatedObject(self, &ToastKeys.activityView) as? UIView == nil else { return }
+        if let toast = objc_getAssociatedObject(self, &ToastKeys.activityView) as? UIView {
+            toast.alpha = 0.0
+            toast.removeFromSuperview()
+            objc_setAssociatedObject(self, &ToastKeys.activityView, nil, .OBJC_ASSOCIATION_RETAIN_NONATOMIC)
+        }
         
         let toast = createToastActivityView()
         makeToastActivity(toast, point: point)
