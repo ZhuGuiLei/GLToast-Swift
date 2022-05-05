@@ -3,7 +3,7 @@
 //  Toast-Swift
 //
 //  Created by apple on 2021/6/5.
-//  1.2.8
+//  1.2.9
 
 import UIKit
 import ObjectiveC
@@ -180,7 +180,7 @@ public extension UIView {
      @param includeActivity If `true`, toast activity will also be hidden. Default is `false`.
      @param clearQueue If `true`, removes all toast views from the queue. Default is `true`.
     */
-    func gl_hideAllToasts(includeActivity: Bool = false, clearQueue: Bool = true) {
+    func gl_hideAllToasts(includeActivity: Bool = true, clearQueue: Bool = true) {
         if clearQueue {
             gl_clearToastQueue()
         }

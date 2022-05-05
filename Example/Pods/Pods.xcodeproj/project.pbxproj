@@ -43,9 +43,9 @@
 		0BBAB273C0264369E576952FEB72C043 /* Pods-GLToast-Swift_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-GLToast-Swift_Example"; path = Pods_GLToast_Swift_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		28D134783805F77DEF089CD782DD2F01 /* Pods-GLToast-Swift_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GLToast-Swift_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		30385D1D05CF2F29E4FF6A0081D319EC /* Pods-GLToast-Swift_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GLToast-Swift_Example-dummy.m"; sourceTree = "<group>"; };
-		334B71A7EEE36CFAB005489305D7D17A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		3729227630A2F0AF4997836A93129EFA /* GLToast-Swift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "GLToast-Swift.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		410C2BC4DACA8517E494E969CD9C0955 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		334B71A7EEE36CFAB005489305D7D17A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3729227630A2F0AF4997836A93129EFA /* GLToast-Swift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = "GLToast-Swift.podspec"; sourceTree = "<group>"; tabWidth = 2; };
+		410C2BC4DACA8517E494E969CD9C0955 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		4D57CD772918D1CF225D876FE3F73159 /* GLToast-Swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GLToast-Swift-prefix.pch"; sourceTree = "<group>"; };
 		521DFCDC448EC3F0895808CDDDC52521 /* Pods-GLToast-Swift_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GLToast-Swift_Tests-Info.plist"; sourceTree = "<group>"; };
 		5755EFEEB25F65C7E32B2B0CF8CB60A7 /* GLToast-Swift */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "GLToast-Swift"; path = GLToast_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -58,7 +58,7 @@
 		7DBD3555BD1A398A731C7E42EBB7B972 /* Pods-GLToast-Swift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GLToast-Swift_Example.release.xcconfig"; sourceTree = "<group>"; };
 		8582EFF98B8084ADAC0981D512C4F87E /* Pods-GLToast-Swift_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GLToast-Swift_Tests-umbrella.h"; sourceTree = "<group>"; };
 		949D817CF9F801CF40BCB6AE1E8705EF /* Pods-GLToast-Swift_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GLToast-Swift_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A477AEFAB9B1E010C71D39D43502052C /* GLToast-Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GLToast-Swift-umbrella.h"; sourceTree = "<group>"; };
 		BB8D839DF22DB2280F98CFB329814B3A /* Pods-GLToast-Swift_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GLToast-Swift_Example-Info.plist"; sourceTree = "<group>"; };
 		BD90E681656A508ECEA5628225EA87D7 /* GLToast-Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "GLToast-Swift.modulemap"; sourceTree = "<group>"; };
@@ -718,8 +718,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

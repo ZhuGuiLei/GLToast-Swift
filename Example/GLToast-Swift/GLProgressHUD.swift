@@ -97,7 +97,6 @@ class GLProgressHUD: NSObject {
         let showView = view ?? UIApplication.shared.keyWindow
         showView?.viewWithTag(921016)?.removeFromSuperview()
         showView?.gl_hideAllToasts()
-        showView?.gl_hideToastActivity()
     }
     
     class func dismissOne(_ view: UIView? = nil) {

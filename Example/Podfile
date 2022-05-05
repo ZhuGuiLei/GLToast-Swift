@@ -8,7 +8,7 @@ target 'GLToast-Swift_Example' do
   target 'GLToast-Swift_Tests' do
     inherit! :search_paths
 
-#    pod 'GLToast-Swift', '1.2.8'
+#    pod 'GLToast-Swift', '1.2.9'
     
   end
 end
