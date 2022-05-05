@@ -44,7 +44,7 @@ class ViewController: UIViewController {
             DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
                 GLProgressHUD.showIndicator("提示信息6失败", tit: "标题")
                 DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
-                    GLProgressHUD.dismissOne()
+                    GLProgressHUD.dismissAll()
                 }
             }
         default:
