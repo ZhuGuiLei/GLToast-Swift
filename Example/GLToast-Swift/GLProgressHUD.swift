@@ -82,28 +82,31 @@ class GLProgressHUD: NSObject {
     //MARK: - 菊花
     /// 菊花
     class func showIndicator(_ msg: String? = nil, tit: String? = nil, toView view: UIView? = nil) {
-        let showView = view ?? UIApplication.shared.keyWindow
-        if showView?.viewWithTag(921016) == nil {
+        let showView = view ?? GLApp?.window
+        if let bg = showView?.viewWithTag(921016) {
+            bg.gl_makeToastActivity(msg, title: tit)
+        } else {
             let bg = UIView.init(frame: showView?.bounds ?? .zero)
             bg.backgroundColor = .clear
             bg.tag = 921016
             showView?.addSubview(bg)
+            bg.gl_makeToastActivity(msg, title: tit)
         }
-        showView?.gl_makeToastActivity(msg, title: tit)
     }
     
     // MARK: - dismiss
     class func dismissAll(_ view: UIView? = nil) {
-        let showView = view ?? UIApplication.shared.keyWindow
-        showView?.viewWithTag(921016)?.removeFromSuperview()
+        let showView = view ?? GLApp?.window
+        showView?.gl_hideToastActivity()
         showView?.gl_hideAllToasts()
+        showView?.viewWithTag(921016)?.removeFromSuperview()
     }
     
     class func dismissOne(_ view: UIView? = nil) {
-        let showView = view ?? UIApplication.shared.keyWindow
-        showView?.viewWithTag(921016)?.removeFromSuperview()
-        showView?.gl_hideToast()
+        let showView = view ?? GLApp?.window
         showView?.gl_hideToastActivity()
+        showView?.gl_hideToast()
+        showView?.viewWithTag(921016)?.removeFromSuperview()
     }
 }
 
