@@ -3,14 +3,14 @@
 //  Toast-Swift
 //
 //  Created by apple on 2021/6/5.
-//  1.2.9
+//  1.3.0
 
 import UIKit
 import ObjectiveC
 
 /**
  Toast is a Swift extension that adds toast notifications to the `UIView` object class.
- It is intended to be simple, lightweight, and easy to use. Most toast notifications 
+ It is intended to be simple, lightweight, and easy to use. Most toast notifications
  can be triggered with a single line of code.
  
  The `makeToast` methods create a new view and then display it as toast.
@@ -24,13 +24,13 @@ public extension UIView {
      Keys used for associated objects.
      */
     private struct ToastKeys {
-        static var timer        = "com.toast-swift.timer"
-        static var duration     = "com.toast-swift.duration"
-        static var point        = "com.toast-swift.point"
-        static var completion   = "com.toast-swift.completion"
-        static var activeToasts = "com.toast-swift.activeToasts"
-        static var activityView = "com.toast-swift.activityView"
-        static var queue        = "com.toast-swift.queue"
+        static var timer        = "com.gl-toast-swift.timer"
+        static var duration     = "com.gl-toast-swift.duration"
+        static var point        = "com.gl-toast-swift.point"
+        static var completion   = "com.gl-toast-swift.completion"
+        static var activeToasts = "com.gl-toast-swift.activeToasts"
+        static var activityView = "com.gl-toast-swift.activityView"
+        static var queue        = "com.gl-toast-swift.queue"
     }
     
     /**
@@ -169,7 +169,7 @@ public extension UIView {
      
      @warning this does not clear a toast view that is currently waiting in the queue.
      */
-    func gl_hideToast(_ toast: UIView) {
+    private func gl_hideToast(_ toast: UIView) {
         guard activeToasts.contains(toast) else { return }
         hideToast(toast, fromTap: false)
     }
@@ -198,7 +198,7 @@ public extension UIView {
      active. Use `hideAllToasts(clearQueue:)` to hide the active toasts views and clear
      the queue.
      */
-    func gl_clearToastQueue() {
+    private func gl_clearToastQueue() {
         queue.removeAllObjects()
     }
     
@@ -210,13 +210,6 @@ public extension UIView {
     ///   - title: 标题
     ///   - position: 位置
     func gl_makeToastActivity(_ message: String?, title: String?, position: ToastPosition = GL_ToastManager.shared.position) {
-        // sanity
-        if let toast = objc_getAssociatedObject(self, &ToastKeys.activityView) as? UIView {
-            toast.alpha = 0.0
-            toast.removeFromSuperview()
-            objc_setAssociatedObject(self, &ToastKeys.activityView, nil, .OBJC_ASSOCIATION_RETAIN_NONATOMIC)
-        }
-        
         let toast = createToastActivityView(message, title: title)
         let point = position.centerPoint(forToast: toast, inSuperview: self)
         makeToastActivity(toast, point: point)
@@ -226,13 +219,6 @@ public extension UIView {
     /// - Parameters:
     ///   - position: 位置
     func gl_makeToastActivity(_ position: ToastPosition) {
-        // sanity
-        if let toast = objc_getAssociatedObject(self, &ToastKeys.activityView) as? UIView {
-            toast.alpha = 0.0
-            toast.removeFromSuperview()
-            objc_setAssociatedObject(self, &ToastKeys.activityView, nil, .OBJC_ASSOCIATION_RETAIN_NONATOMIC)
-        }
-        
         let toast = createToastActivityView()
         let point = position.centerPoint(forToast: toast, inSuperview: self)
         makeToastActivity(toast, point: point)
@@ -244,13 +230,6 @@ public extension UIView {
     ///   - title: 标题
     ///   - point: 位置
     func gl_makeToastActivity(_ message: String?, title: String?, point: CGPoint) {
-        // sanity
-        if let toast = objc_getAssociatedObject(self, &ToastKeys.activityView) as? UIView {
-            toast.alpha = 0.0
-            toast.removeFromSuperview()
-            objc_setAssociatedObject(self, &ToastKeys.activityView, nil, .OBJC_ASSOCIATION_RETAIN_NONATOMIC)
-        }
-        
         let toast = createToastActivityView(message, title: title)
         makeToastActivity(toast, point: point)
     }
@@ -259,13 +238,6 @@ public extension UIView {
     /// - Parameters:
     ///   - point: 位置
     func gl_makeToastActivity(_ point: CGPoint) {
-        // sanity
-        if let toast = objc_getAssociatedObject(self, &ToastKeys.activityView) as? UIView {
-            toast.alpha = 0.0
-            toast.removeFromSuperview()
-            objc_setAssociatedObject(self, &ToastKeys.activityView, nil, .OBJC_ASSOCIATION_RETAIN_NONATOMIC)
-        }
-        
         let toast = createToastActivityView()
         makeToastActivity(toast, point: point)
     }
@@ -285,6 +257,12 @@ public extension UIView {
     // MARK: - Private Activity Methods
     
     private func makeToastActivity(_ toast: UIView, point: CGPoint) {
+        if let tmp = objc_getAssociatedObject(self, &ToastKeys.activityView) as? UIView {
+            tmp.alpha = 0.0
+            tmp.removeFromSuperview()
+            objc_setAssociatedObject(self, &ToastKeys.activityView, nil, .OBJC_ASSOCIATION_RETAIN_NONATOMIC)
+        }
+        
         toast.alpha = 0.0
         toast.center = point
         
